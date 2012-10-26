@@ -1,4 +1,3 @@
-
 local URL_COLOR = "16FF5D"
 
 local originalSetItemRef = SetItemRef
@@ -9,9 +8,7 @@ local replacementSetItemRef = function(link, text, button, chatFrame)
 		local chatFrameEditBox = ChatEdit_ChooseBoxForSend()
 		local url = strsub(link, 5)
 
-		if not chatFrameEditBox:IsShown() then
-			ChatEdit_ActivateChat(chatFrameEditBox)
-		end
+		ChatEdit_ActivateChat(chatFrameEditBox)
 
 		chatFrameEditBox:Insert(url)
 		chatFrameEditBox:HighlightText()

@@ -2,7 +2,7 @@
 ## DefaultState: Enabled
 ## Title: DarkChatLinks
 ## Notes: Lets you copy Urls in chat.
-## Author: Darkend/Slap/Horde/Zenedar/EU
-## Version: 1.0.0
+## Author: Darkend / Slap / Horde / Zenedar / EU
+## Version: 1.0.1
 
 DarkChatLinks.lua
